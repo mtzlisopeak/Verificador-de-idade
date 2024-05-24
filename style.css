@@ -13,6 +13,11 @@ body {
     background-color: cornflowerblue;
 }
 
+button {
+    padding: 2vh 5vh;
+    border-radius: 1vh;
+}
+
 select {
     padding: 1.5vh;
     border-radius: 1vh;
