@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de idade</title>
+</head>
+<body>
+    
+    <header>
+        <h1 id="title">Verificador de idade</h1>
+    </header>
+
+    <main>
+        <div id="container">
+            <select id="opcoes">
+                <option value="indefinido">Ano de nascimento</option>
+            </select>
+            
+            <div id="generos">
+                <!-- os botões radio tem que ter o mesmo nome
+                    para não ser possivel marcar os dois
+                -->
+                <input name="radsex" type="radio">Masculino
+                <input name="radsex" type="radio">Feminino
+            </div>
+            <button onclick="calcular()">calcular</button>
+        </div>
+
+        <h1 id="label">Preencha os dados acima para ver os resultados!!!</h1>
+
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
